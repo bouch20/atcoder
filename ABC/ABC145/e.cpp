@@ -21,7 +21,7 @@ typedef pair<int, int> P;
 int main(int argc, const char * argv[]) {
   int n, t;
   cin >> n >> t;
-  vector<int> ab(n);
+  vector<int> a(n);
   vector<int> b(n);
   rep(i, n){
     cin >> a[i] >> b[i];

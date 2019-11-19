@@ -1,0 +1,14 @@
+{
+	"editor.renderControlCharacters": true, // 制御文字を表示する
+	"editor.renderWhitespace": "boundary",  // 空白文字を表示する
+	"editor.dragAndDrop": false,
+	"emeraldwalk.runonsave": {
+		"commands": [
+			{
+				"match": "\\.cpp$",
+				"isAsync": true,
+				"cmd": "clang++ ${file} -Wall -std=c++14 -o ${fileDirname}/test.out"
+			}
+		]
+	},
+}
