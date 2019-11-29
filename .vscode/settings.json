@@ -8,7 +8,18 @@
 				"match": "\\.cpp$",
 				"isAsync": true,
 				"cmd": "clang++ ${file} -Wall -std=c++14 -o ${fileDirname}/test.out"
-			}
-		]
+			},
+			// {
+			// 	"match": "\\.cpp$",
+			// 	"isAsync": true,
+			// 	"cmd": "export ATCODER_RUN_FILE='uunyaa'"
+			// },
+			// {
+			// 	"match": ".*",
+			// 	"cmd": "echo $ATCODER_RUN_FILE"
+			// }
+		],
+		
+
 	},
 }
